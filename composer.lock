@@ -1,0 +1,47 @@
+{
+    "_readme": [
+        "Este archivo es detectado por Trivy como una lista de dependencias instaladas."
+    ],
+    "content-hash": "simulacion_demo_seguridad",
+    "packages": [
+        {
+            "name": "phpmailer/phpmailer",
+            "version": "5.2.16",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPMailer/PHPMailer.git",
+                "reference": "simulated_vulnerable_hash"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/v5.2.16",
+                "reference": "simulated_vulnerable_hash",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.0.0"
+            },
+            "require-dev": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "description": "PHPMailer - The classic email sending library for PHP",
+            "homepage": "https://github.com/PHPMailer/PHPMailer",
+            "keywords": [
+                "email",
+                "mail",
+                "mailer",
+                "phpmailer"
+            ],
+            "time": "2016-06-06T00:00:00+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
